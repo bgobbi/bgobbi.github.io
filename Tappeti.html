@@ -1,46 +1,74 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-<style media="screen">
-table, th, td {
-  border-collapse: collapse; 
-}
-td {  text-align: center;
-      width: 300;
-   }
-table {  margin-left: 100;
-      }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tappeti fatti a mano</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #c6f9d9;
+      color: black;
+      padding: 1em;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1em;
+      padding: 1em;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Tappetti appena lavati a riparati</h1>
+  </header>
+  <div class="gallery">
+    <div>
+    <a href="Foto/TeppichTuer_1.jpg"><img src="Foto/TeppichTuer_1.jpg" width="90%"/></a><br/>
+    Nr. 1: 2.98m x 1.28m
+    </div>
 
-<H1>Tappetti appena lavati a riparati</H1>
+    <div>
+    <a href="Foto/TeppichBalkon_2.jpg"><img src="Foto/TeppichBalkon_2.jpg" width="90%"/></a><br/>
+    Nr. 2 3.08m x 1.03m
+    </div>
 
-<table border="1">
-   <tr>
-   <td><a href="Foto/TeppichTuer_1.jpg"><img src="Foto/TeppichTuer_1.jpg" width="90%"/></a></td>
-   <td><a href="Foto/TeppichBalkon_2.jpg"><img src="Foto/TeppichBalkon_2.jpg" width="90%"/></a></td>
-   </tr>
-   <tr>
-   <td>Nr. 1 2.98m x 1.28m</td>
-   <td>Nr. 2 3.08m x 1.03m</td>
-   </tr>
-   
-   <tr>
-   <td><a href="Foto/TeppichSecretaer_3.jpg"><img src="Foto/TeppichSecretaer_3.jpg" width="90%"/></a></td>
-   <td><a href="Foto/TeppichBettML_4.jpg"><img src="Foto/TeppichBettML_4.jpg" width="90%"/></a></td>
-   </tr>
-   <tr>
-   <td>Nr. 3 2.98m x 1.08m</td>
-   <td>Nr. 4 2.97m x 1.05m</td>
-   </tr>
+    <div>
+    <a href="Foto/TeppichSecretaer_3.jpg"><img src="Foto/TeppichSecretaer_3.jpg" width="90%"/></a><br/>
+    Nr. 3 2.98m x 1.08m
+    </div>
 
-   <tr>
-   <td><a href="Foto/TeppichBettAG_5.jpg"><img src="Foto/TeppichBettAG_5.jpg" width="90%"/></a></td>
-   </tr>
-   <tr>
-   <td>Nr. 5 3.08m x 1.03m</td>
-   </tr>
-   
-</table>
+    <div>
+    <a href="Foto/TeppichBettML_4.jpg"><img src="Foto/TeppichBettML_4.jpg" width="90%"/></a><br/>
+    Nr. 4 2.97m x 1.05m
+    </div>
+
+    <div>
+    <a href="Foto/TeppichBettAG_5.jpg"><img src="Foto/TeppichBettAG_5.jpg" width="90%"/></a><br/>
+    Nr. 5 3.08m x 1.03m
+    </div>
+
+  </div>
+  <footer>
+    <!--Contatti: <a href="mailto:esempio@email.it">esempio@email.it</a>-->
+  </footer>
 </body>
 </html>
